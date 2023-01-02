@@ -2,7 +2,93 @@
 <head>
   <title>My Portfolio</title>
   <style>
-    /* Add your CSS styles here */
+    body {
+  background-color: #f4f4f4;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+header nav {
+  display: flex;
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+header nav ul li {
+  margin: 0 10px;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+header nav ul li a:hover {
+  color: #333;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+
+main section {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  padding: 20px;
+  width: calc(33.33% - 40px);
+}
+
+main section h2 {
+  margin: 0;
+}
+
+i {
+padding: 5px;
+}
+
+/* Style the project grid */
+.project-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.project-grid a {
+  flex: 0 0 calc(33.33% - 20px);
+  margin: 10px;
+}
+
+.project-grid img {
+  width: 100%;
+}
+
+
+footer {
+  background-color: #333;
+  color
+}
   </style>
 </head>
 <body>
@@ -12,6 +98,7 @@
       <ul>
         <li><a href="#about">About</a></li>
         <li><a href="#projects">Projects</a></li>
+        <li><a href="#recognitions">Projects</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
@@ -21,26 +108,31 @@
       <h2>About Me</h2>
       <p>Add some information about yourself here</p>
     </section>
-    <section id="projects">
-      <h2>My Projects</h2>
-      <ul>
-        <li>
-          <h3>Project 1</h3>
-          <p>Add a description of your project here</p>
-        </li>
-        <li>
-          <h3>Project 2</h3>
-          <p>Add a description of your project here</p>
-        </li>
-      </ul>
+
+    <section id="innitiatives">
+      <!-- Add a grid of project thumbnails -->
+      <div class="project-grid">
+        <a href="girlsintech.html"><img src="girlsintech-thumbnail.jpg" alt="Girls in Tech Uruguay"></a>
+        <a href="ant.html"><img src="ant-thumbnail.jpg" alt="ANT"></a>
+        <a href="spaceapps.html"><img src="spaceapps-thumbnail.jpg" alt="Space Apps Challenge Uruguay"></a>
+        <a href="fibras.html"><img src="fibras-thumbnail.jpg" alt="Fibras"></a>
+        <a href="aiwondergirls.html"><img src="aiwondergirls-thumbnail.jpg" alt="AI Wonder Girls"></a>
+        <a href="meetupml.html"><img src="meetupml-thumbnail.jpg" alt="Machine Learning Meetup"></a>
+      </div>
     </section>
     <section id="contact">
       <h2>Contact Me</h2>
-      <p>You can reach me at [email] or through social media at the links below:</p>
+      <p>You can reach me at <a href="mailto:mikaelapisani@rootstrap.com">email</a> or through social media at the links below:</p>
       <ul>
-        <li><a href="#">Twitter</a></li>
-        <li><a href="#">LinkedIn</a></li>
-        <li><a href="#">GitHub</a></li>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    
+        <a href="https://www.linkedin.com/in/mikaela-pisani-leal/"><i class="fab fa-linkedin fa-2x"></i></a> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+        
+        <a href="https://medium.com/@mikaelapisani"><i class="fab fa-medium fa-2x"></i></a> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+        <a href="https://www.instagram.com/art.neuroscience.technology/"><i class="fab fa-instagram fa-2x"></i></a>
+        
       </ul>
     </section>
   </main>
