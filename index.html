@@ -1,125 +1,28 @@
 <html>
 <head>
   <title>My Portfolio</title>
-  <style>
-    body {
-  background-color: #f4f4f4;
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-}
-
-header {
-  background-color: #333;
-  color: #fff;
-  display: flex;
-  justify-content: space-between;
-  padding: 20px;
-}
-
-header h1 {
-  margin: 0;
-}
-
-header nav {
-  display: flex;
-}
-
-header nav ul {
-  display: flex;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-header nav ul li {
-  margin: 0 10px;
-}
-
-header nav ul li a {
-  color: #fff;
-  text-decoration: none;
-}
-
-header nav ul li a:hover {
-  color: #333;
-}
-
-main {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 20px;
-}
-
-main section {
-  background-color: #fff;
-  border-radius: 5px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  margin: 20px;
-  padding: 20px;
-  width: calc(33.33% - 40px);
-}
-
-main section h2 {
-  margin: 0;
-}
-
-i {
-padding: 5px;
-}
-
-/* Style the project grid */
-.project-grid {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-.project-grid a {
-  flex: 0 0 calc(33.33% - 20px);
-  margin: 10px;
-}
-
-.project-grid img {
-  width: 100%;
-}
-
-
-footer {
-  background-color: #333;
-  color
-}
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
     <h1>My Portfolio</h1>
     <nav>
       <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#recognitions">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="./about.html">About</a></li>
+        <li><a href="./projects.html">Projects</a></li>
+        <li><a href="./conferences.html">Conferences</a></li>
+        <li><a href="./recognitions.html">Recognitions</a></li>
+        <li><a href="./contact">Contact</a></li>
       </ul>
     </nav>
   </header>
   <main>
-    <section id="about">
-      <h2>About Me</h2>
-      <p>Add some information about yourself here</p>
-    </section>
-
-    <section id="innitiatives">
-      <!-- Add a grid of project thumbnails -->
-      <div class="project-grid">
-        <a href="girlsintech.html"><img src="girlsintech-thumbnail.jpg" alt="Girls in Tech Uruguay"></a>
-        <a href="ant.html"><img src="ant-thumbnail.jpg" alt="ANT"></a>
-        <a href="spaceapps.html"><img src="spaceapps-thumbnail.jpg" alt="Space Apps Challenge Uruguay"></a>
-        <a href="fibras.html"><img src="fibras-thumbnail.jpg" alt="Fibras"></a>
-        <a href="aiwondergirls.html"><img src="aiwondergirls-thumbnail.jpg" alt="AI Wonder Girls"></a>
-        <a href="meetupml.html"><img src="meetupml-thumbnail.jpg" alt="Machine Learning Meetup"></a>
-      </div>
-    </section>
+    <set id="about">
+      <h2>About me</h2>
+      <p class="p2">“I'm one of those regular weird people.” - Janis Joplin</p>
+      <p>I am passionated about Machine Learning and very interested in what interdisciplinary teams are able to build. Specially in how art, science and technology can be integrated.</p>
+      <a href="./about.html">Know more</a>
+    </set>
     <section id="contact">
       <h2>Contact Me</h2>
       <p>You can reach me at <a href="mailto:mikaelapisani@rootstrap.com">email</a> or through social media at the links below:</p>
@@ -135,9 +38,21 @@ footer {
         
       </ul>
     </section>
+    <set id="innitiatives">
+      <h2>Initiatives</h2>
+      <div class="project-grid">
+        <a href="./girlsintech.html"><img src="images/girlsintech.png" alt="Girls in Tech Uruguay"></a>
+        <a href="./fibras.html"><img src="images/fibras.png" alt="Fibras"></a>
+        <a href="./ant.html"><img src="images/ant.png" alt="ANT"></a>
+        <a href="./spaceapps.html"><img src="images/spaceapps.png" alt="Space Apps Challenge Uruguay"></a>
+        <a href="./aiwondergirls.html"><img src="images/aiworndergirls.jpeg" alt="AI Wonder Girls"></a>
+        <a href="./meetup.html"><img src="images/meetup.jpg" alt="Montevideo BigData & DataScience Meetup"></a>
+      </div>
+    </set>
+   
   </main>
   <footer>
-    <p>Copyright 2021</p>
+    <p></p>
   </footer>
 </body>
 </html>

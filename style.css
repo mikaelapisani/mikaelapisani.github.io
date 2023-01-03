@@ -1,0 +1,124 @@
+body {
+  background-color: #f3f7fa;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #464d69;
+  color: #f3f7fa;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+header nav {
+  display: flex;
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+header nav ul li {
+  margin: 0 10px;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+header nav ul li a:hover {
+  color: #333;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+
+main photo {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  padding: 20px;
+  width: calc(33.33% - 40px);
+}
+
+main set {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  padding: 20px;
+  width: calc(50% - 10px);
+}
+
+main section {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  padding: 20px;
+  width: calc(33.33% - 40px);
+}
+
+main section h2 {
+  margin: 0;
+}
+
+
+/* Style the project grid */
+.project-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.project-grid a {
+  flex: 0 0 calc(33.33% - 20px);
+  margin: 10px;
+}
+
+.project-grid img {
+  width: 100%;
+}
+
+
+.p1 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.p2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  font-weight: 500;
+}
+
+a {
+  color: #8696c6;
+}
+
+main section h2 {
+  margin: 0;
+}
+
+i {
+  padding: 5px;
+}
+
+footer {
+  background-color: #333;
+  color
+}
