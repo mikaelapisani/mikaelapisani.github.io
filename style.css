@@ -1,12 +1,12 @@
 body {
-  background-color: #f3f7fa;
+  background-color: #f9f5f1;
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
 }
 
 header {
-  background-color: #464d69;
+  background-color: #ba7a5a;
   color: #f3f7fa;
   display: flex;
   justify-content: space-between;
@@ -88,6 +88,11 @@ main section h2 {
   margin: 0;
 }
 
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 /* Style the project grid */
 .project-grid {
@@ -155,7 +160,7 @@ main section h2 {
 }
 
 a {
-  color: #8696c6;
+  color: #6c3435;
 }
 
 main section h2 {
