@@ -66,25 +66,46 @@ main set {
   position: relative;
 }
 
-main intro {
+main sett {
   background-color: #fff;
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   margin: 20px;
   padding: 20px;
+  width: calc(90% - 10px);
+  position: relative;
+}
+
+main intro {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 40px;
   width: 900;
   height: 60;
+  position: relative;
 }
 
 main section {
   background-color: #fff;
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  margin: 20px;
   padding: 20px;
-  width: calc(30.33% - 40px);
+  margin: 20px;
+  width: calc(35% - 10px);
   position: relative;
 }
+
+
+main sproject {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px;
+  width: calc(35% - 10px);
+  position: relative;
+}
+
 
 main section h2 {
   margin: 0;
@@ -95,6 +116,7 @@ networks {
   align-items: left; 
   justify-content: left; 
   margin-top: 30px;
+  margin-left: 20px;
 }
 
 know {
@@ -142,6 +164,7 @@ img {
 
 .p1 {
   font-family: Arial, Helvetica, sans-serif;
+  margin: 25px;
 }
 
 
@@ -149,6 +172,7 @@ img {
   font-family: Arial, Helvetica, sans-serif;
   font-style: italic;
   font-weight: 500;
+  margin: 25px;
 }
 
 
